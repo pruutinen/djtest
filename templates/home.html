@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+moro
+{% block maincontent %}
+moro vaan
+<p></p>
+
+<form method="POST" action=""> {% csrf_token %}
+
+{{CustomForm1.as_p }}
+<input type='submit' value='Join' class='btn btn-success btn-sm' />
+
+</form>
+{% endblock %}
