@@ -13,6 +13,7 @@ class Join(models.Model):
 
 	def __str__(self):
 		return "%s" %(self.ref_id)
+		## test tets
 		#return str(self.email)
 
 	class Meta:
